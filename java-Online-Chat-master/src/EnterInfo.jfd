@@ -1,0 +1,560 @@
+JFDML JFormDesigner: "7.0.3.0.337" Java: "11.0.7" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+			name: "this"
+			"defaultCloseOperation": 3
+			"resizable": false
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "jLabel2"
+				"text": "Enter Info's"
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 80
+				"y": 100
+				"width": 70
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "red"
+				"background": new java.awt.Color( 181, 181, 181, 255 )
+				"icon": new com.jformdesigner.model.SwingIcon( 0, "/close.jpg" )
+				"opaque": true
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 30
+				"y": 10
+				"width": 20
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "green"
+				"background": new java.awt.Color( 181, 181, 181, 255 )
+				"icon": new com.jformdesigner.model.SwingIcon( 0, "/maximise.jpg" )
+				"opaque": true
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 70
+				"y": 10
+				"width": 20
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "grey"
+				"background": new java.awt.Color( 181, 181, 181, 255 )
+				"icon": new com.jformdesigner.model.SwingIcon( 0, "/minimise.jpg" )
+				"opaque": true
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 50
+				"y": 10
+				"width": 20
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "jLabel1"
+				"text": "Diplay Name"
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 30
+				"y": 120
+				"height": 10
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "jTextField2"
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 30
+				"y": 130
+				"width": 210
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "jLabel3"
+				"text": "Gender"
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 30
+				"y": 160
+				"height": 10
+			} )
+			add( new FormComponent( "javax.swing.JComboBox" ) {
+				name: "jComboBox1"
+				"model": new javax.swing.DefaultComboBoxModel {
+					selectedItem: "M"
+					addElement( "M" )
+					addElement( "Ж" )
+				}
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 30
+				"y": 170
+				"width": 50
+				"height": 20
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "jLabel4"
+				"text": "D.O.B"
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 30
+				"y": 210
+				"width": 50
+				"height": 10
+			} )
+			add( new FormComponent( "javax.swing.JComboBox" ) {
+				name: "jComboBox3"
+				"model": new javax.swing.DefaultComboBoxModel {
+					selectedItem: "January"
+					addElement( "January" )
+					addElement( "Febraury" )
+					addElement( "March" )
+					addElement( "April" )
+					addElement( "May" )
+					addElement( "June" )
+					addElement( "July" )
+					addElement( "August" )
+					addElement( "September" )
+					addElement( "October" )
+					addElement( "November" )
+					addElement( "December" )
+				}
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 30
+				"y": 220
+				"width": 90
+			} )
+			add( new FormComponent( "javax.swing.JComboBox" ) {
+				name: "jComboBox4"
+				"model": new javax.swing.DefaultComboBoxModel {
+					selectedItem: "01"
+					addElement( "01" )
+					addElement( "02" )
+					addElement( "03" )
+					addElement( "04" )
+					addElement( "05" )
+					addElement( "06" )
+					addElement( "07" )
+					addElement( "08" )
+					addElement( "09" )
+					addElement( "10" )
+					addElement( "11" )
+					addElement( "12" )
+					addElement( "13" )
+					addElement( "14" )
+					addElement( "15" )
+					addElement( "16" )
+					addElement( "17" )
+					addElement( "18" )
+					addElement( "19" )
+					addElement( "20" )
+					addElement( "21" )
+					addElement( "22" )
+					addElement( "23" )
+					addElement( "24" )
+					addElement( "25" )
+					addElement( "26" )
+					addElement( "27" )
+					addElement( "28" )
+					addElement( "29" )
+					addElement( "30" )
+					addElement( "31" )
+				}
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 130
+				"y": 220
+				"width": 40
+			} )
+			add( new FormComponent( "javax.swing.JComboBox" ) {
+				name: "jComboBox2"
+				"model": new javax.swing.DefaultComboBoxModel {
+					selectedItem: "1940"
+					addElement( "1940" )
+					addElement( "1941" )
+					addElement( "1942" )
+					addElement( "1943" )
+					addElement( "1944" )
+					addElement( "1945" )
+					addElement( "1946" )
+					addElement( "1947" )
+					addElement( "1948" )
+					addElement( "1949" )
+					addElement( "1950" )
+					addElement( "1951" )
+					addElement( "1952" )
+					addElement( "1953" )
+					addElement( "1954" )
+					addElement( "1955" )
+					addElement( "1956" )
+					addElement( "1957" )
+					addElement( "1958" )
+					addElement( "1959" )
+					addElement( "1960" )
+					addElement( "1961" )
+					addElement( "1962" )
+					addElement( "1963" )
+					addElement( "1964" )
+					addElement( "1965" )
+					addElement( "1966" )
+					addElement( "1967" )
+					addElement( "1968" )
+					addElement( "1969" )
+					addElement( "1970" )
+					addElement( "1971" )
+					addElement( "1972" )
+					addElement( "1973" )
+					addElement( "1974" )
+					addElement( "1975" )
+					addElement( "1976" )
+					addElement( "1977" )
+					addElement( "1978" )
+					addElement( "1979" )
+					addElement( "1980" )
+					addElement( "1981" )
+					addElement( "1982" )
+					addElement( "1983" )
+					addElement( "1984" )
+					addElement( "1985" )
+					addElement( "1986" )
+					addElement( "1987" )
+					addElement( "1988" )
+					addElement( "1989" )
+					addElement( "1990" )
+					addElement( "1991" )
+					addElement( "1992" )
+					addElement( "1993" )
+					addElement( "1994" )
+					addElement( "1995" )
+					addElement( "1996" )
+					addElement( "1997" )
+					addElement( "1998" )
+					addElement( "1999" )
+					addElement( "2000" )
+					addElement( "2001" )
+					addElement( "2002" )
+					addElement( "2003" )
+					addElement( "2004" )
+					addElement( "2005" )
+					addElement( "2006" )
+					addElement( "2007" )
+					addElement( "2008" )
+					addElement( "2009" )
+					addElement( "2010" )
+					addElement( "2011" )
+					addElement( "2012" )
+					addElement( "2013" )
+					addElement( "2014" )
+				}
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 179
+				"y": 220
+				"width": 60
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "jLabel5"
+				"text": "Personal Message"
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 30
+				"y": 260
+				"height": 10
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "jTextField3"
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 30
+				"y": 270
+				"width": 210
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "jLabel7"
+				"text": "Country"
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 30
+				"y": 310
+				"height": 10
+			} )
+			add( new FormComponent( "javax.swing.JComboBox" ) {
+				name: "jComboBox5"
+				"model": new javax.swing.DefaultComboBoxModel {
+					selectedItem: "Abkhazia"
+					addElement( "Abkhazia" )
+					addElement( "Afghanistan" )
+					addElement( "Akrotiri and Dhekelia" )
+					addElement( "Aland" )
+					addElement( "Albania" )
+					addElement( "Algeria" )
+					addElement( "American Samoa" )
+					addElement( "Andorra" )
+					addElement( "Angola" )
+					addElement( "Anguilla" )
+					addElement( "Antigua and Barbuda" )
+					addElement( "Argentina" )
+					addElement( "Armenia" )
+					addElement( "Aruba" )
+					addElement( "Ascension Island" )
+					addElement( "Australia" )
+					addElement( "Austria" )
+					addElement( "Azerbaijan" )
+					addElement( "Bahamas, The" )
+					addElement( "Bahrain" )
+					addElement( "Bangladesh" )
+					addElement( "Barbados" )
+					addElement( "Belarus" )
+					addElement( "Belgium" )
+					addElement( "Belize" )
+					addElement( "Benin" )
+					addElement( "Bermuda" )
+					addElement( "Bhutan" )
+					addElement( "Bolivia" )
+					addElement( "Bosnia and Herzegovina" )
+					addElement( "Botswana" )
+					addElement( "Brazil" )
+					addElement( "Brunei" )
+					addElement( "Bulgaria" )
+					addElement( "Burkina Faso" )
+					addElement( "Burundi" )
+					addElement( "Cambodia" )
+					addElement( "Cameroon" )
+					addElement( "Canada" )
+					addElement( "Cape Verde" )
+					addElement( "Cayman Islands" )
+					addElement( "Central Africa Republic" )
+					addElement( "Chad" )
+					addElement( "Chile" )
+					addElement( "China" )
+					addElement( "Christmas Island" )
+					addElement( "Cocos (Keeling) Islands" )
+					addElement( "Colombia" )
+					addElement( "Comoros" )
+					addElement( "Congo" )
+					addElement( "Cook Islands" )
+					addElement( "Costa Rica" )
+					addElement( "Cote d'lvoire" )
+					addElement( "Croatia" )
+					addElement( "Cuba" )
+					addElement( "Cyprus" )
+					addElement( "Czech Republic" )
+					addElement( "Denmark" )
+					addElement( "Djibouti" )
+					addElement( "Dominica" )
+					addElement( "Dominican Republic" )
+					addElement( "East Timor Ecuador" )
+					addElement( "Egypt" )
+					addElement( "El Salvador" )
+					addElement( "Equatorial Guinea" )
+					addElement( "Eritrea" )
+					addElement( "Estonia" )
+					addElement( "Ethiopia" )
+					addElement( "Falkland Islands" )
+					addElement( "Faroe Islands" )
+					addElement( "Fiji" )
+					addElement( "Finland" )
+					addElement( "France" )
+					addElement( "French Polynesia" )
+					addElement( "Gabon" )
+					addElement( "Cambia, The" )
+					addElement( "Georgia" )
+					addElement( "Germany" )
+					addElement( "Ghana" )
+					addElement( "Gibraltar" )
+					addElement( "Greece" )
+					addElement( "Greenland" )
+					addElement( "Grenada" )
+					addElement( "Guam" )
+					addElement( "Guatemala" )
+					addElement( "Guemsey" )
+					addElement( "Guinea" )
+					addElement( "Guinea-Bissau" )
+					addElement( "Guyana" )
+					addElement( "Haiti" )
+					addElement( "Honduras" )
+					addElement( "Hong Kong" )
+					addElement( "Hungary" )
+					addElement( "Iceland" )
+					addElement( "India" )
+					addElement( "Indonesia" )
+					addElement( "Iran" )
+					addElement( "Iraq" )
+					addElement( "Ireland" )
+					addElement( "Isle of Man" )
+					addElement( "Israel" )
+					addElement( "Italy" )
+					addElement( "Jamaica" )
+					addElement( "Japan" )
+					addElement( "Jersey" )
+					addElement( "Jordan" )
+					addElement( "Kazakhstan" )
+					addElement( "Kenya" )
+					addElement( "Kiribati" )
+					addElement( "Korea, N" )
+					addElement( "Korea, S" )
+					addElement( "Kosovo" )
+					addElement( "Kuwait" )
+					addElement( "Kyrgyzstan" )
+					addElement( "Laos" )
+					addElement( "Latvia" )
+					addElement( "Lebanon" )
+					addElement( "Lesotho" )
+					addElement( "Liberia" )
+					addElement( "Libya" )
+					addElement( "Liechtenstein" )
+					addElement( "Lithuania" )
+					addElement( "Luxembourg" )
+					addElement( "Macao" )
+					addElement( "Macedonia" )
+					addElement( "Madagascar" )
+					addElement( "Malawi" )
+					addElement( "Malaysia" )
+					addElement( "Maldives" )
+					addElement( "Mali" )
+					addElement( "Malta" )
+					addElement( "Marshall Islands" )
+					addElement( "Mauritania" )
+					addElement( "Mauritius" )
+					addElement( "Mayotte" )
+					addElement( "Mexico" )
+					addElement( "Micronesia" )
+					addElement( "Moldova" )
+					addElement( "Monaco" )
+					addElement( "Mongolia" )
+					addElement( "Montenegro" )
+					addElement( "Montserrat" )
+					addElement( "Morocco" )
+					addElement( "Mozambique" )
+					addElement( "Myanmar" )
+					addElement( "Nagorno-Karabakh" )
+					addElement( "Namibia" )
+					addElement( "Nauru" )
+					addElement( "Nepal" )
+					addElement( "Netherlands" )
+					addElement( "Netherlands Antilles" )
+					addElement( "New Caledonia" )
+					addElement( "New Zealand" )
+					addElement( "Nicaragua" )
+					addElement( "Niger" )
+					addElement( "Nigeria" )
+					addElement( "Niue" )
+					addElement( "Norfolk Island" )
+					addElement( "Northern Cyprus" )
+					addElement( "Northern Mariana Islands" )
+					addElement( "Norway" )
+					addElement( "Oman" )
+					addElement( "Pakistan" )
+					addElement( "Palau" )
+					addElement( "Palestine" )
+					addElement( "Panama" )
+					addElement( "Papua New Guinea" )
+					addElement( "Paraguay" )
+					addElement( "Peru" )
+					addElement( "Philippines" )
+					addElement( "Pitcaim Islands" )
+					addElement( "Poland" )
+					addElement( "Portugal" )
+					addElement( "Puerto Rico" )
+					addElement( "Qatar" )
+					addElement( "Romania" )
+					addElement( "Russia" )
+					addElement( "Rwanda" )
+					addElement( "Sahrawi Arab Democratic Republic" )
+					addElement( "Saint-Barthelemy" )
+					addElement( "Saint Helena" )
+					addElement( "Saint Kitts and Nevis" )
+					addElement( "Saint Lucia" )
+					addElement( "Saint Martin" )
+					addElement( "Saint Pierre and Miquelon" )
+					addElement( "Saint Vincent and Grenadines" )
+					addElement( "Samos" )
+					addElement( "San Marino" )
+					addElement( "Sao Tome and Principe" )
+					addElement( "Saudi Arabia" )
+					addElement( "Senegal" )
+					addElement( "Serbia" )
+					addElement( "Seychelles" )
+					addElement( "Sierra Leone" )
+					addElement( "Singapore" )
+					addElement( "Slovakia" )
+					addElement( "Slovenia" )
+					addElement( "Solomon Islands" )
+					addElement( "Somalia" )
+					addElement( "Somaliland" )
+					addElement( "South Africa" )
+					addElement( "South Ossetia" )
+					addElement( "Spain" )
+					addElement( "Sri Lanka" )
+					addElement( "Sudan" )
+					addElement( "Suriname" )
+					addElement( "Svalbard" )
+					addElement( "Swaziland" )
+					addElement( "Sweden" )
+					addElement( "Switzerland" )
+					addElement( "Syria" )
+					addElement( "Tajikistan" )
+					addElement( "Tanzania" )
+					addElement( "Thailand" )
+					addElement( "Togo" )
+					addElement( "Tokelau" )
+					addElement( "Tonga" )
+					addElement( "Transnistria" )
+					addElement( "Trinidad and Tobago" )
+					addElement( "Tristan da Cunha" )
+					addElement( "Tunisia" )
+					addElement( "Turkey" )
+					addElement( "Turkmenistan" )
+					addElement( "Turks and Caicos Islands" )
+					addElement( "Tuvalu" )
+					addElement( "Uganda" )
+					addElement( "Ukraine" )
+					addElement( "United Arab Emirates" )
+					addElement( "United Kingdom" )
+					addElement( "United States" )
+					addElement( "Uruguay" )
+					addElement( "Uzbekistan" )
+					addElement( "Vanuatu" )
+					addElement( "Vatican City" )
+					addElement( "Venezuela" )
+					addElement( "Vietnam" )
+					addElement( "Virgin Islands, British" )
+					addElement( "Virgin Islands, U.S." )
+					addElement( "Wallis and Futuna" )
+					addElement( "Yemen" )
+					addElement( "Zambia" )
+					addElement( "Zimbabwe" )
+				}
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 30
+				"y": 320
+				"width": 210
+				"height": 20
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "jLabel8"
+				"icon": new com.jformdesigner.model.SwingIcon( 0, "/go.jpg" )
+				"text": "jLabel8"
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "jLabel8MouseClicked", true ) )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 90
+				"y": 370
+				"width": 80
+				"height": 30
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "jLabel6"
+				"foreground": new java.awt.Color( 0, 0, 102, 255 )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 20
+				"y": 60
+				"width": 80
+				"height": 20
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "screen"
+				"background": new java.awt.Color( 255, 255, 255, 255 )
+				"border": new javax.swing.border.EtchedBorder( 1, null, null )
+				"opaque": true
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 20
+				"y": 80
+				"width": 230
+				"height": 340
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "iphone"
+				"icon": new com.jformdesigner.model.SwingIcon( 0, "/0_00Love.jpg" )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": -130
+				"width": 390
+				"height": 500
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"size": new java.awt.Dimension( 262, 500 )
+		} )
+	}
+}

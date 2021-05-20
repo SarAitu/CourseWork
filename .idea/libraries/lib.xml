@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="lib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/java-Online-Chat-master/dist/lib/AbsoluteLayout.jar!/" />
+      <root url="jar://$PROJECT_DIR$/java-Online-Chat-master/dist/lib/swing-layout-1.0.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/java-Online-Chat-master/dist/lib/mysql-connector-java-5.1.13-bin.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

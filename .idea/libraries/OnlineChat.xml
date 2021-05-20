@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="OnlineChat">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/java-Online-Chat-master/dist/OnlineChat.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
